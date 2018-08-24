@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faas.IdentityServer", "Faas.IdentityServer\Faas.IdentityServer.csproj", "{FF0B830F-FC7D-4775-88B2-BAC15366DFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faas.Engine", "Faas.Engine\Faas.Engine.csproj", "{C2EB8C30-5F93-4F58-8E54-F713D6FE2A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faas.Web", "Faas.Web\Faas.Web.csproj", "{579251C7-58AA-4BCC-8FDF-9A3DD2C53A97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF0B830F-FC7D-4775-88B2-BAC15366DFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0B830F-FC7D-4775-88B2-BAC15366DFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0B830F-FC7D-4775-88B2-BAC15366DFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0B830F-FC7D-4775-88B2-BAC15366DFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EB8C30-5F93-4F58-8E54-F713D6FE2A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EB8C30-5F93-4F58-8E54-F713D6FE2A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EB8C30-5F93-4F58-8E54-F713D6FE2A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EB8C30-5F93-4F58-8E54-F713D6FE2A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579251C7-58AA-4BCC-8FDF-9A3DD2C53A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579251C7-58AA-4BCC-8FDF-9A3DD2C53A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579251C7-58AA-4BCC-8FDF-9A3DD2C53A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579251C7-58AA-4BCC-8FDF-9A3DD2C53A97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E88D7C23-6ADE-4DA1-89D4-22542E14778C}
+	EndGlobalSection
+EndGlobal
